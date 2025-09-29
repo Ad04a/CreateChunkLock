@@ -24,6 +24,7 @@ versions/
 launcher_profiles.json
 usercache.json
 usernamecache.json
+minecraftinstance.json
 
 # Rhino - idfk
 rhino.local.properties
@@ -33,5 +34,13 @@ mods/tl_skin_cape_forge_1.20-1.36.jar
 mods/tl_skin_cape_forge_1.20.1-1.32.jar
 TempOptifineStore-1.0.json
 
+# Ignore configs
+config/flywheel-client.toml
+config/fml.toml
 
-# The datapack itself
+# Ignore kubejs
+kubejs/config/probejs.json
+
+# All .bak files
+*.bak
+
