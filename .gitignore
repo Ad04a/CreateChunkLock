@@ -1,0 +1,23 @@
+# Visual Studio Code user specific files
+.vscode/
+
+# Curse Forge user specific stuff
+.curseclient
+
+# User specific settings
+options.txt
+# Server list of the user - should include server.dat and server.dat_old [may potentionally break something with the mods but we dont know]
+server*.dat* 
+
+# System info
+crash-reports/
+logs/
+saves/
+local/
+
+# MC user specific cache
+usercache.json
+usernamecache.json
+
+# Rhino - idfk
+rhino.local.properties
