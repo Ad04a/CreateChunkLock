@@ -33,6 +33,7 @@ rhino.local.properties
 mods/tl_skin_cape_forge_1.20-1.36.jar
 mods/tl_skin_cape_forge_1.20.1-1.32.jar
 TempOptifineStore-1.0.json
+worlds.json
 
 # Ignore configs
 config/flywheel-client.toml
