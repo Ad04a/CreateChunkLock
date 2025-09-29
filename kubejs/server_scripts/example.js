@@ -18,7 +18,6 @@ ServerEvents.entityLootTables(event => {
     event.addEntity(bossId, table => {
         table.addPool(pool => {
         pool.rolls = 1
-        pool.
         pool.addItem('kubejs:token')
         })
     })

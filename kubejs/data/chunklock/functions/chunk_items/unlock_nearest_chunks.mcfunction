@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=locked,limit=9,sort=nearest] at @s run function chunklock:utils/unlock_current_chunk
