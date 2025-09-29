@@ -14,6 +14,11 @@ crash-reports/
 logs/
 saves/
 local/
+cache/
+assets/
+libraries/
+runtime/
+versions/
 
 # MC user specific cache
 launcher_profiles.json
@@ -22,3 +27,11 @@ usernamecache.json
 
 # Rhino - idfk
 rhino.local.properties
+
+# Auto generated TLauncher mods
+mods/tl_skin_cape_forge_1.20-1.36.jar
+mods/tl_skin_cape_forge_1.20.1-1.32.jar
+TempOptifineStore-1.0.json
+
+
+# The datapack itself
