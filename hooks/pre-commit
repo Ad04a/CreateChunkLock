@@ -1,2 +1,2 @@
 #!/bin/sh
-powershell -ExecutionPolicy Bypass -File ".git/hooks/pre-commit.ps1"
+powershell -ExecutionPolicy Bypass -File "hooks/pre-commit.ps1"
