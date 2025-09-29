@@ -24,7 +24,7 @@ versions/
 launcher_profiles.json
 usercache.json
 usernamecache.json
-minecraftinstance.json
+#minecraftinstance.json
 
 # Rhino - idfk
 rhino.local.properties
