@@ -23,20 +23,16 @@ ServerEvents.entityLootTables(event => {
 EntityEvents.death(event => {
   if (event.entity.type in global.bossIds && event.level.dimension != "bl:blueprint_dimension") {
     let data = event.server.persistentData;
-    data.DifficultyScaling = (data.DifficultyScaling || 0) + global.bossIds[event.entity.type][1];
-    event.server.tell("creep " + event.level.dimension + "new difficulty: " + data.DifficultyScaling);
+    data.DifficultyScaling = (data.DifficultyScaling || 0) + Math.floor((global.bossIds[event.entity.type][0] + global.bossIds[event.entity.type][1])/2);
   }
 });
 
-// Scale zombie HP on spawn
 EntityEvents.spawned(event => {
-  /*if (event.entity.type == "minecraft:zombie") {
-    let data = event.server.persistentData;
-    let kills = data.zombieKills || 0;
+  if (event.entity.type in global.bossIds) {
+    let DifficultyScaling = event.server.persistentData.DifficultyScaling || 0;
 
-    // base health = 20, +0.5 per kill
-    let newHealth = 20 + (kills * 0.5);
+    let newHealth = Math.floor(event.entity.maxHealth * (1 + DifficultyScaling*0.02));
     event.entity.maxHealth = newHealth;
     event.entity.health = newHealth;
-  }*/
+  }
 });
