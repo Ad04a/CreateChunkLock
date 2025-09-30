@@ -42,6 +42,7 @@ config/fml.toml
 
 # Ignore kubejs
 kubejs/config/probejs.json
+!kubejs/assets/
 
 # All .bak files
 *.bak

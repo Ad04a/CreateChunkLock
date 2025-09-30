@@ -1,4 +1,12 @@
 
+ServerEvents.loaded(event => {
+  let data = event.server.persistentData;
+  if(!data.DifficultyScaling)
+  {
+    data.DifficultyScaling = 0;
+  }
+
+})
 
 ServerEvents.entityLootTables(event => {
   for(let [bossId, dropAmounts] of Object.entries(global.bossIds)) {
@@ -11,3 +19,20 @@ ServerEvents.entityLootTables(event => {
     })
   };
 })
+
+EntityEvents.death(event => {
+  if (event.entity.type in global.bossIds && event.level.dimension != "bl:blueprint_dimension") {
+    let data = event.server.persistentData;
+    data.DifficultyScaling = (data.DifficultyScaling || 0) + Math.floor((global.bossIds[event.entity.type][0] + global.bossIds[event.entity.type][1])/2);
+  }
+});
+
+EntityEvents.spawned(event => {
+  if (event.entity.type in global.bossIds) {
+    let DifficultyScaling = event.server.persistentData.DifficultyScaling || 0;
+
+    let newHealth = Math.floor(event.entity.maxHealth * (1 + DifficultyScaling*0.02));
+    event.entity.maxHealth = newHealth;
+    event.entity.health = newHealth;
+  }
+});
