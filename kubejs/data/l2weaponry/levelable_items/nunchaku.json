@@ -1,0 +1,12 @@
+{
+  "name": "l2weaponry:nunchaku",
+  "taglist": true,
+  "xp_multiplier": 1.0,
+  "isMeleeWeapon": true,
+  "disabled":false,
+  "hitXPAmount": 10,
+  "hitXPChance": 20,
+  "critXPAmount": 80,
+  "critXPChance": 25,
+  "weaponDamagePerLevel": 0.5
+}

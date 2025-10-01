@@ -1,0 +1,12 @@
+{
+  "name": "l2weaponry:dagger",
+  "taglist": true,
+  "xp_multiplier": 0.7,
+  "isMeleeWeapon": true,
+  "disabled":false,
+  "hitXPAmount": 10,
+  "hitXPChance": 20,
+  "critXPAmount": 500,
+  "critXPChance": 5,
+  "weaponDamagePerLevel": 5.0
+}

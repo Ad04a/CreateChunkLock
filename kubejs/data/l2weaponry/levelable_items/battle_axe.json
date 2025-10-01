@@ -1,0 +1,12 @@
+{
+  "name": "l2weaponry:battle_axe",
+  "taglist": true,
+  "xp_multiplier": 2.5,
+  "isMeleeWeapon": true,
+  "disabled":false,
+  "hitXPAmount": 10,
+  "hitXPChance": 90,
+  "critXPAmount": 200,
+  "critXPChance": 10,
+  "weaponDamagePerLevel": 0.25
+}

@@ -1,0 +1,12 @@
+{
+  "name": "l2weaponry:machete",
+  "taglist": true,
+  "xp_multiplier": 1.1,
+  "isMeleeWeapon": true,
+  "disabled":false,
+  "hitXPAmount": 30,
+  "hitXPChance": 20,
+  "critXPAmount": 40,
+  "critXPChance": 50,
+  "weaponDamagePerLevel": 1.0
+}

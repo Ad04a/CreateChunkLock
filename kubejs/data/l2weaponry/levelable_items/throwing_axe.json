@@ -1,0 +1,12 @@
+{
+  "name": "l2weaponry:throwing_axe",
+  "taglist": true,
+  "xp_multiplier": 1.7,
+  "isMeleeWeapon": true,
+  "disabled":false,
+  "hitXPAmount": 20,
+  "hitXPChance": 100,
+  "critXPAmount": 90,
+  "critXPChance": 100,
+  "weaponDamagePerLevel": 4.0
+}
