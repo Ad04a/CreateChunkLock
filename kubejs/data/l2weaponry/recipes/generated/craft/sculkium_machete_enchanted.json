@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "Weapon Type Features",
+        "defaultEnchantmentOnWeapons"
+      ],
+      "path": "l2_configs/l2weaponry-common.toml"
+    }
+  ],
+  "key": {
+    "H": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "I": {
+      "item": "l2complements:sculkium_ingot"
+    }
+  },
+  "pattern": [
+    "  I",
+    " I ",
+    " H "
+  ],
+  "result": {
+    "item": "l2weaponry:sculkium_machete",
+    "nbt": "{Enchantments:[{id:\"minecraft:sweeping\",lvl:1s}]}"
+  },
+  "show_notification": true
+}

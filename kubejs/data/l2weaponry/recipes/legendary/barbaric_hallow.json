@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:blackstone_core"
+  },
+  "base": {
+    "item": "l2weaponry:netherite_throwing_axe"
+  },
+  "result": {
+    "item": "l2weaponry:barbaric_hallow"
+  },
+  "template": {
+    "tag": "l2library:dummy_smithing_template"
+  }
+}

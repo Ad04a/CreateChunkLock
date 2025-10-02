@@ -1,0 +1,22 @@
+{
+  "type": "jeed:effect_provider",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jeed"
+    }
+  ],
+  "effect": "minecraft:resistance",
+  "providers": [
+    {
+      "item": "l2weaponry:ironwood_round_shield"
+    },
+    {
+      "item": "l2weaponry:ironwood_plate_shield"
+    }
+  ]
+}

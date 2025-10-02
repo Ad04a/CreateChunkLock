@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "id": "l2weaponry:reflect_time",
+      "intrinsic": 0.0,
+      "order": 14000,
+      "usePercent": false
+    },
+    {
+      "id": "l2weaponry:shield_defense",
+      "intrinsic": 0.0,
+      "order": 15000,
+      "usePercent": false
+    }
+  ]
+}

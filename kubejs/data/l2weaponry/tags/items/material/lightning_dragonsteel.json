@@ -1,0 +1,52 @@
+{
+  "values": [
+    {
+      "id": "l2weaponry:lightning_dragonsteel_claw",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_dagger",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_machete",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_throwing_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_battle_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_round_shield",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_plate_shield",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_nunchaku",
+      "required": false
+    }
+  ]
+}
