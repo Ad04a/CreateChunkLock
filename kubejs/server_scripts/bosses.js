@@ -28,11 +28,11 @@ EntityEvents.death(event => {
 });
 
 EntityEvents.spawned(event => {
-  if (event.entity.type in global.bossIds) {
+  /*if (event.entity.type in global.bossIds) {
     let DifficultyScaling = event.server.persistentData.DifficultyScaling || 0;
 
     let newHealth = Math.floor(event.entity.maxHealth * (1 + DifficultyScaling*0.02));
     event.entity.maxHealth = newHealth;
     event.entity.health = newHealth;
-  }
+  }*/
 });
