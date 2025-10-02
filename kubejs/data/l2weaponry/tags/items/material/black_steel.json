@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "l2weaponry:black_steel_claw",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_dagger",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_machete",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_throwing_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_battle_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_nunchaku",
+      "required": false
+    }
+  ]
+}

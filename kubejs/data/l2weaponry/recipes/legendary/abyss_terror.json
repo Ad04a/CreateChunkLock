@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:resonant_feather"
+  },
+  "base": {
+    "item": "l2weaponry:sculkium_battle_axe"
+  },
+  "result": {
+    "item": "l2weaponry:abyss_terror"
+  },
+  "template": {
+    "tag": "l2library:dummy_smithing_template"
+  }
+}

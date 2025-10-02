@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "l2weaponry:volucite_claw",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_dagger",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_machete",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_throwing_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_battle_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_round_shield",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_plate_shield",
+      "required": false
+    }
+  ]
+}

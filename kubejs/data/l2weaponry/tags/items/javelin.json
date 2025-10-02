@@ -1,0 +1,95 @@
+{
+  "values": [
+    "l2weaponry:poseidon_madness",
+    "l2weaponry:void_escape",
+    "l2weaponry:iron_javelin",
+    "l2weaponry:gold_javelin",
+    "l2weaponry:diamond_javelin",
+    "l2weaponry:netherite_javelin",
+    "l2weaponry:totemic_gold_javelin",
+    "l2weaponry:poseidite_javelin",
+    "l2weaponry:shulkerate_javelin",
+    "l2weaponry:sculkium_javelin",
+    "l2weaponry:eternium_javelin",
+    {
+      "id": "l2weaponry:ironwood_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:steeleaf_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:knightmetal_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fiery_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cloggrum_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:froststeel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:utherium_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:forgotten_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ice_dragonsteel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fire_dragonsteel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ignitium_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cursium_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ancient_metal_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:arsonist_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lunar_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ruby_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_javelin",
+      "required": false
+    }
+  ]
+}

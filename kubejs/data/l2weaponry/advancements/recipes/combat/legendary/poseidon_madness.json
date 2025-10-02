@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_guardian_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "l2complements:guardian_eye"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:legendary/poseidon_madness"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_guardian_eye",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:legendary/poseidon_madness"
+    ]
+  },
+  "sends_telemetry_event": false
+}

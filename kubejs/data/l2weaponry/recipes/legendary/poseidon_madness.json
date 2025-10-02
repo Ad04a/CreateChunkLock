@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "c": {
+      "type": "l2library:enchantment",
+      "enchantment": "minecraft:channeling",
+      "min_level": 1
+    },
+    "d": {
+      "item": "l2weaponry:poseidite_dagger"
+    },
+    "g": {
+      "item": "l2complements:guardian_eye"
+    },
+    "j": {
+      "item": "l2weaponry:poseidite_javelin"
+    },
+    "s": {
+      "item": "l2weaponry:poseidite_spear"
+    },
+    "w": {
+      "item": "l2complements:storm_core"
+    }
+  },
+  "pattern": [
+    "cds",
+    "wgd",
+    "jwc"
+  ],
+  "result": {
+    "item": "l2weaponry:poseidon_madness"
+  },
+  "show_notification": true
+}

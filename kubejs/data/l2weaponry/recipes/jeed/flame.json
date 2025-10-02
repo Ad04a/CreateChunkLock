@@ -1,0 +1,15 @@
+{
+  "type": "jeed:effect_provider",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "jeed"
+    }
+  ],
+  "effect": "l2complements:flame",
+  "providers": [
+    {
+      "item": "l2weaponry:axe_of_cursed_flame"
+    }
+  ]
+}

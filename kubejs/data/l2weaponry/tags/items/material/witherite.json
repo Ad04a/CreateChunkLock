@@ -1,0 +1,40 @@
+{
+  "values": [
+    {
+      "id": "l2weaponry:witherite_claw",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_dagger",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_machete",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_throwing_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_battle_axe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_javelin",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_nunchaku",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "values": [
+    "l2weaponry:death_scythe",
+    "l2weaponry:iron_scythe",
+    "l2weaponry:gold_scythe",
+    "l2weaponry:diamond_scythe",
+    "l2weaponry:netherite_scythe",
+    "l2weaponry:totemic_gold_scythe",
+    "l2weaponry:poseidite_scythe",
+    "l2weaponry:shulkerate_scythe",
+    "l2weaponry:sculkium_scythe",
+    "l2weaponry:eternium_scythe",
+    {
+      "id": "l2weaponry:ironwood_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:steeleaf_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:knightmetal_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fiery_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cloggrum_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:froststeel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:utherium_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:forgotten_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ice_dragonsteel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fire_dragonsteel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ignitium_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cursium_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ancient_metal_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:soul_harvester",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:arsonist_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lunar_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ruby_scythe",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_scythe",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    },
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "Weapon Type Features",
+        "defaultEnchantmentOnWeapons"
+      ],
+      "path": "l2_configs/l2weaponry-common.toml"
+    }
+  ],
+  "key": {
+    "H": {
+      "item": "cataclysm:black_steel_ingot"
+    },
+    "I": {
+      "item": "cataclysm:cursium_ingot"
+    }
+  },
+  "pattern": [
+    " II",
+    " HI",
+    "H  "
+  ],
+  "result": {
+    "item": "l2weaponry:cursium_spear",
+    "nbt": "{Enchantments:[{id:\"l2complements:plane_digging\",lvl:1s}]}"
+  },
+  "show_notification": true
+}

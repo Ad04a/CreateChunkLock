@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "cataclysm:ignitium_ingot"
+  },
+  "base": {
+    "item": "l2weaponry:cursium_scythe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cataclysm"
+    }
+  ],
+  "result": {
+    "item": "l2weaponry:soul_harvester"
+  },
+  "template": {
+    "item": "cataclysm:ignitium_upgrade_smithing_template"
+  }
+}

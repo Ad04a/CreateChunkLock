@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "Weapon Type Features",
+        "defaultEnchantmentOnWeapons"
+      ],
+      "path": "l2_configs/l2weaponry-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_shulkerate_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "l2complements:shulkerate_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:generated/craft/shulkerate_hammer_enchanted"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_shulkerate_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:generated/craft/shulkerate_hammer_enchanted"
+    ]
+  },
+  "sends_telemetry_event": false
+}
