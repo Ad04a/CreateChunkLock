@@ -1,5 +1,0 @@
-#Show combined bow arrow stats and features when holding bow
-showInfo = true
-#Show projectile selection
-showArrow = true
-
