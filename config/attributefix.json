@@ -198,6 +198,17 @@
         "value": 1024
       }
     },
+    "autoleveling:monster.explosion_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "l2weaponry:reflect_time": {
       "enabled": false,
       "min": {
@@ -350,6 +361,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "autoleveling:monster.projectile_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "minecraft:generic.knockback_resistance": {
