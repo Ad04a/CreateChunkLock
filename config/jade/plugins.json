@@ -51,9 +51,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "l2hostility": {
-    "mob": true
-  },
   "jadeaddons": {
     "equipment_requirement": ""
   },
@@ -66,6 +63,9 @@
     "exact_block": true,
     "goggles.detailed": false,
     "placard": true
+  },
+  "autoleveling": {
+    "level": true
   },
   "jade": {
     "coordinates.rel": false,
