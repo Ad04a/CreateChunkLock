@@ -1,6 +1,0 @@
-{
-  "type": "l2complements:diffusion",
-  "base": "minecraft:stone",
-  "ingredient": "minecraft:diamond_block",
-  "result": "minecraft:diamond_ore"
-}

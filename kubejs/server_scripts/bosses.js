@@ -20,6 +20,7 @@ ServerEvents.entityLootTables(event => {
   };
 })
 
+
 EntityEvents.death(event => {
   
   //event.server.tell("Level: " + event.entity.entityData.);

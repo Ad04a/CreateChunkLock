@@ -1,6 +1,0 @@
-{
-  "type": "l2complements:diffusion",
-  "base": "minecraft:deepslate",
-  "ingredient": "minecraft:redstone_block",
-  "result": "minecraft:deepslate_redstone_ore"
-}
