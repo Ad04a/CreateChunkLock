@@ -21,14 +21,15 @@ ServerEvents.entityLootTables(event => {
 })
 
 
+
 EntityEvents.hurt(event => {
   
   //event.server.tell("mazna");
   //event.server.tell("dist: " + event.getPlayer().distanceToEntity(event.getEntity().).toString());
-  //if(event.entity.distanceToEntity(event.player) < 10)
-  //{
-    //event.server.tell("Name: " + event.entity.type);
-  //}
+  if(event.entity.type = "minecraft:zombie")
+  {
+    event.server.tell(event.entity.timeOffs);
+  }
   /*if (event.entity.type in global.bossIds && event.level.dimension != "bl:blueprint_dimension") {
     let data = event.server.persistentData;
     data.DifficultyScaling = (data.DifficultyScaling || 0) + Math.floor((global.bossIds[event.entity.type][0] + global.bossIds[event.entity.type][1])/2);

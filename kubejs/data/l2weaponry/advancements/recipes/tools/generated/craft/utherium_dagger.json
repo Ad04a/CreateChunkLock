@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "undergarden"
+    },
+    {
+      "type": "l2library:boolean_config",
+      "expected": false,
+      "line": [
+        "Weapon Type Features",
+        "defaultEnchantmentOnWeapons"
+      ],
+      "path": "l2_configs/l2weaponry-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:generated/craft/utherium_dagger"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_utherium_crystal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergarden:utherium_crystal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_utherium_crystal",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:generated/craft/utherium_dagger"
+    ]
+  },
+  "sends_telemetry_event": false
+}
