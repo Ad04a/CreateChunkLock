@@ -21,7 +21,7 @@
 	#Allow digger enchantments on weapon
 	diggerEnchantmentOnWeapon = true
 	#Default enchantments on crafted weapons
-	defaultEnchantmentOnWeapons = true
+	defaultEnchantmentOnWeapons = false
 	#List of enchantment categories for weapons. Use upper case enum name.
 	#For modded enchantment categories, find them in their code through GitHub
 	#Example: 'WEAPON', 'DIGGER'

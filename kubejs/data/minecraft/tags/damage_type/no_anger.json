@@ -1,0 +1,20 @@
+{
+  "values": [
+    "l2weaponry:mob_attack-no_anger",
+    "l2weaponry:mob_attack-bypass_magic-no_anger",
+    "l2weaponry:mob_attack-bypass_armor-no_anger",
+    "l2weaponry:mob_attack-bypass_armor-bypass_magic-no_anger",
+    "l2weaponry:player_attack-no_anger",
+    "l2weaponry:player_attack-bypass_magic-no_anger",
+    "l2weaponry:player_attack-bypass_armor-no_anger",
+    "l2weaponry:player_attack-bypass_armor-bypass_magic-no_anger",
+    "l2weaponry:trident-no_anger",
+    "l2weaponry:trident-no_anger-no_projectile",
+    "l2weaponry:trident-bypass_magic-no_anger",
+    "l2weaponry:trident-bypass_magic-no_anger-no_projectile",
+    "l2weaponry:trident-bypass_armor-no_anger",
+    "l2weaponry:trident-bypass_armor-no_anger-no_projectile",
+    "l2weaponry:trident-bypass_armor-bypass_magic-no_anger",
+    "l2weaponry:trident-bypass_armor-bypass_magic-no_anger-no_projectile"
+  ]
+}

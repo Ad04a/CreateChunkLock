@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_poseidite_spear": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "l2weaponry:poseidite_spear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:generated/recycle/poseidite_spear"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_poseidite_spear",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:generated/recycle/poseidite_spear"
+    ]
+  },
+  "sends_telemetry_event": false
+}
