@@ -16,7 +16,7 @@ global.bossIds = {
   "mowziesmobs:ferrous_wroughtnaut": [0,1],
   "mowziesmobs:umvuthi": [0,1],
   "mowziesmobs:frostmaw": [0,1],
-  "mowziesmobs:naga": [2,0],
+  "mowziesmobs:naga": [2,0], //mini
   "mowziesmobs:sculptor": [0,1],
 
   "legendary_monsters:shulker_mimic" : [1,0],

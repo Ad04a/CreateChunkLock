@@ -1,7 +1,7 @@
 
 [general]
 	#Enable debug for game testing
-	enableDebug = true
+	enableDebug = false
 	#The range from an active beacon where no champions will spawn (0 to disable)
 	#Range: 0 ~ 1000
 	beaconProtectionRange = 64
@@ -9,7 +9,7 @@
 	championSpawners = true
 	#The minimum tier of champions that will have death messages sent out upon defeat (0 to disable)
 	#Range: > 0
-	deathMessageTier = 0
+	deathMessageTier = 5
 	#A list of dimension names that are blacklisted/whitelisted for champions
 	dimensionList = []
 	#Set whether the dimension list is a blacklist or whitelist
