@@ -1,5 +1,20 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:weapon_variants/entry_halberd",
+        "simplyswords:weapon_variants/entry_warglaive",
+        "simplyswords:rune_etching/entry_rp_freeze",
+        "simplyswords:gem_socketing/entry_howto_socket_gems",
+        "simplyswords:gem_socketing/entry_empowered_remnant",
+        "simplyswords:gem_socketing/entry_runefused_gem",
+        "simplyswords:gem_socketing/entry_netherfused_gem",
+        "simplyswords:weapon_variants/entry_greataxe"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
