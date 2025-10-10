@@ -1,6 +1,0 @@
-{
-  "type": "l2complements:diffusion",
-  "base": "minecraft:stone",
-  "ingredient": "minecraft:redstone_block",
-  "result": "minecraft:redstone_ore"
-}

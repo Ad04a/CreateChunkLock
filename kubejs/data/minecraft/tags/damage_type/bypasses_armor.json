@@ -1,21 +1,5 @@
 {
   "values": [
-    "l2weaponry:mob_attack-bypass_armor-no_anger",
-    "l2weaponry:mob_attack-bypass_armor-bypass_magic-no_anger",
-    "l2weaponry:player_attack-bypass_armor-no_anger",
-    "l2weaponry:player_attack-bypass_armor-bypass_magic-no_anger",
-    "l2weaponry:trident-bypass_armor",
-    "l2weaponry:trident-bypass_armor-no_projectile",
-    "l2weaponry:trident-bypass_armor-no_anger",
-    "l2weaponry:trident-bypass_armor-no_anger-no_projectile",
-    "l2weaponry:trident-bypass_armor-bypass_magic",
-    "l2weaponry:trident-bypass_armor-bypass_magic-no_projectile",
-    "l2weaponry:trident-bypass_armor-bypass_magic-no_anger",
-    "l2weaponry:trident-bypass_armor-bypass_magic-no_anger-no_projectile",    
-    
-    "l2complements:soul_flame",
-    "l2complements:bleed",
-    "l2complements:life_sync",
-    "l2complements:void_eye"
+
   ]
 }

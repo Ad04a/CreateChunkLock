@@ -1,6 +1,0 @@
-{
-  "type": "l2complements:diffusion",
-  "base": "minecraft:deepslate",
-  "ingredient": "minecraft:diamond_block",
-  "result": "minecraft:deepslate_diamond_ore"
-}

@@ -1,12 +1,6 @@
 {
   "values": [
-    "l2weaponry:trident-no_anger",
-    "l2weaponry:trident-bypass_magic",
-    "l2weaponry:trident-bypass_magic-no_anger",
-    "l2weaponry:trident-bypass_armor",
-    "l2weaponry:trident-bypass_armor-no_anger",
-    "l2weaponry:trident-bypass_armor-bypass_magic",
-    "l2weaponry:trident-bypass_armor-bypass_magic-no_anger",
+
     "champions:enkindling_bullet"
   ]
 }
