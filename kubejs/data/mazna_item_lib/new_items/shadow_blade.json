@@ -1,0 +1,54 @@
+{
+    "id": "mazna_item_lib:shadow_blade",
+
+    "type": "sword",
+    "tier": "netherite",
+    "texture": "mazna_item_lib:item/shadow_blade",
+    "stack_size": 1,
+
+    "display_name": "Shadow Blade",
+    "rarity": "epic",
+    "lore": [
+        "Forged in the shadow of the nether",
+        "Grants life steal to its wielder"
+    ],
+    "durability": 750,
+    "fireproof": true,
+    "glow": true,
+    "container_item": "",
+
+    "attributes": [
+        {
+            "attribute": "minecraft:attack_damage",
+            "name": "base_damage",
+            "amount": 9.0,
+            "operation": "addition",
+            "slot": "mainhand"
+        },
+        {
+            "attribute": "apothicattributes:lifesteal",
+            "name": "lifesteal_bonus",
+            "amount": 0.15,
+            "operation": "addition",
+            "slot": "mainhand"
+        }
+    ],
+    "recipes": {
+        "shaped": {
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                " # ",
+                " # ",
+                " S "
+            ],
+            "key": {
+                "#": { "item": "minecraft:netherite_ingot" },
+                "S": { "item": "minecraft:bamboo" }
+            },
+            "result": {
+                "item": "mazna_item_lib:shadow_blade",
+                "count": 1
+            }
+        }
+    }
+}

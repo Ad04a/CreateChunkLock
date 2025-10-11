@@ -1,0 +1,27 @@
+{
+  "id": "mazna_item_lib:custom_cake",
+  "display_name": "Custom Cake",
+  "type": "food",
+  "food": {
+    "hunger": 6,
+    "saturation": 0.6
+  },
+  "container_item": "minecraft:bucket",
+  "recipes": {
+    "shaped": {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "AAA",
+        "BEB",
+        "CCC"
+      ],
+      "key": {
+        "A": { "item": "minecraft:milk_bucket" },
+        "B": { "item": "minecraft:sugar" },
+        "C": { "item": "minecraft:wheat" },
+        "E": { "item": "minecraft:egg" }
+      },
+      "result": { "item": "mazna_item_lib:custom_cake" }
+    }
+  }
+}

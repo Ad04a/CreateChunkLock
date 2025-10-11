@@ -1,0 +1,16 @@
+{
+  "id": "mazna_item_lib:milk_bucket_custom",
+  "display_name": "Milk Bucket",
+  "type": "food",
+  "stack_size": 1,
+  "container_item": "minecraft:bucket",
+  "recipes": {
+    "shapeless": {
+      "type": "minecraft:crafting_shapeless",
+      "ingredients": [
+        { "item": "minecraft:milk_bucket" }
+      ],
+      "result": { "item": "mazna_item_lib:milk_bucket_custom" }
+    }
+  }
+}

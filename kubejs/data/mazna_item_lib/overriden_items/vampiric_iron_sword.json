@@ -1,0 +1,15 @@
+{
+  "id": "minecraft:iron_sword",
+  
+  "display_name": "Vampiric Iron Sword",
+  
+  "attributes": [
+    {
+      "attribute": "apothicattributes:lifesteal",
+      "name": "lifesteal_bonus",
+      "amount": 0.05,
+      "operation": "addition",
+      "slot": "mainhand"
+    }
+  ]
+}
