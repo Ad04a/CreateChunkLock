@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:sandworm_nest",
+                            "decoration": "banner_green",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true,
+                            "name":"asd"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

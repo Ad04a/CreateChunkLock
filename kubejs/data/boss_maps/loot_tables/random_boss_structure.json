@@ -1,0 +1,246 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:abandoned_crypt_eye_located",
+                            "decoration": "banner_pink",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:ancient_stronghold_eye_located",
+                            "decoration": "banner_orange",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:cloudy_temple_eye_located",
+                            "decoration": "banner_light_blue",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:dragon_hideout",
+                            "decoration": "banner_red",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:frostbitten_temple_eye_located",
+                            "decoration": "banner_lime",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:frostmaw",
+                            "decoration": "banner_cyan",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:monastery",
+                            "decoration": "banner_blue",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:mossy_temple_eye_located",
+                            "decoration": "banner_magenta",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:pink_salt_structures",
+                            "decoration": "banner_gray",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:sandworm_nest",
+                            "decoration": "banner_green",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true,
+                            "name":"asd"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:umvuthana_grove",
+                            "decoration": "banner_purple",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:wrought_chamber",
+                            "decoration": "banner_light_gray",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "boss_maps:yeti_hideout",
+                            "decoration": "banner_brown",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true,
+                            "label": "Mazna",
+                            "name":"Maznnnnna"
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
