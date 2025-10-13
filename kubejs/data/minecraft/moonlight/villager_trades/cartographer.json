@@ -1,0 +1,17 @@
+{
+  "type": "supplementaries:structure_map",
+  "item": "minecraft:emerald",
+  "structure": "minecraft:igloo",
+  "map_color": "0xff00ffff",
+  "map_name": "My Custom Map",
+  "map_marker": "supplementaries:igloo",
+  "price_min": 7,
+  "price_max": 13,
+  "price_secondary": {
+    "id": "minecraft:compass",
+    "Count": 1
+  },
+  "max_trades": 16,
+  "price_multiplier": 0.05,
+  "level": 1
+}

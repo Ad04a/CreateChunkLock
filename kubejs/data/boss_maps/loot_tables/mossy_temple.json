@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:map",
+                    "functions": [
+                        {
+                            "function": "exploration_map",
+                            "destination": "legendary_monsters:mossy_temple_eye_located",
+                            "decoration": "banner_magenta",
+                            "zoom": 0,
+                            "search_radius": 1024,
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag":"{bmInit:false}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
