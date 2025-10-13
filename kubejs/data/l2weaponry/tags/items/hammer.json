@@ -1,0 +1,76 @@
+{
+  "values": [
+    "l2weaponry:hammer_of_incarceration",
+    "l2weaponry:abyss_echo",
+    "l2weaponry:dogmatic_punishment",
+    "l2weaponry:iron_hammer",
+    "l2weaponry:gold_hammer",
+    "l2weaponry:diamond_hammer",
+    "l2weaponry:netherite_hammer",
+    "l2weaponry:totemic_gold_hammer",
+    "l2weaponry:poseidite_hammer",
+    "l2weaponry:shulkerate_hammer",
+    "l2weaponry:sculkium_hammer",
+    "l2weaponry:eternium_hammer",
+    {
+      "id": "l2weaponry:ironwood_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:steeleaf_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:knightmetal_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fiery_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cloggrum_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:froststeel_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:utherium_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:forgotten_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ice_dragonsteel_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fire_dragonsteel_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:arsonist_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lunar_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ruby_hammer",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_hammer",
+      "required": false
+    }
+  ]
+}

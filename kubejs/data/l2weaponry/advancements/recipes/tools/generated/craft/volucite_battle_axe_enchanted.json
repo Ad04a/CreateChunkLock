@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:recipes/root",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aerialhell"
+    },
+    {
+      "type": "l2library:boolean_config",
+      "expected": true,
+      "line": [
+        "Weapon Type Features",
+        "defaultEnchantmentOnWeapons"
+      ],
+      "path": "l2_configs/l2weaponry-common.toml"
+    }
+  ],
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:generated/craft/volucite_battle_axe_enchanted"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_volucite_vibrant": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "aerialhell:volucite_vibrant"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_volucite_vibrant",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:generated/craft/volucite_battle_axe_enchanted"
+    ]
+  },
+  "sends_telemetry_event": false
+}

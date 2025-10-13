@@ -1,0 +1,95 @@
+{
+  "values": [
+    "l2weaponry:spear_of_winter_storm",
+    "l2weaponry:haunting_demon_of_the_end",
+    "l2weaponry:iron_spear",
+    "l2weaponry:gold_spear",
+    "l2weaponry:diamond_spear",
+    "l2weaponry:netherite_spear",
+    "l2weaponry:totemic_gold_spear",
+    "l2weaponry:poseidite_spear",
+    "l2weaponry:shulkerate_spear",
+    "l2weaponry:sculkium_spear",
+    "l2weaponry:eternium_spear",
+    {
+      "id": "l2weaponry:ironwood_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:steeleaf_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:knightmetal_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fiery_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cloggrum_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:froststeel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:utherium_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:forgotten_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ice_dragonsteel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:fire_dragonsteel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lightning_dragonsteel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ignitium_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:witherite_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:cursium_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ancient_metal_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:black_steel_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:arsonist_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:lunar_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:ruby_spear",
+      "required": false
+    },
+    {
+      "id": "l2weaponry:volucite_spear",
+      "required": false
+    }
+  ]
+}

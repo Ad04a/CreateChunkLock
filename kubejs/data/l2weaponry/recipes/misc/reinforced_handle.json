@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:copper_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " SI",
+    "SIS",
+    "IS "
+  ],
+  "result": {
+    "count": 1,
+    "item": "l2weaponry:reinforced_handle"
+  },
+  "show_notification": true
+}

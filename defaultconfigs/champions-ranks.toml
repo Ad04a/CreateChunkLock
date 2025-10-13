@@ -1,0 +1,48 @@
+[[ranks]]#non-elite
+  tier = 0
+  numAffixes = 0
+  defaultColor = "#FFFFFF"
+  weight = 8000
+  growthFactor = 1
+  effects = []
+  presetAffixes = []
+[[ranks]]#common
+  tier = 1
+  numAffixes = 1
+  defaultColor = "#FFC0CB"
+  weight = 1000
+  growthFactor = 1
+  effects = []
+  presetAffixes = []
+[[ranks]]#skilled
+  tier = 2
+  numAffixes = 2
+  defaultColor = "#FFFF00"
+  weight = 500
+  growthFactor = 4
+  effects = []
+  presetAffixes = []
+[[ranks]]#elite
+  tier = 3
+  numAffixes = 3
+  defaultColor = "#FF9900"
+  weight = 250
+  growthFactor = 7
+  effects = []
+  presetAffixes = []
+[[ranks]]#legendary
+  tier = 4
+  numAffixes = 4
+  defaultColor = "#66FFFF"
+  weight = 150
+  growthFactor = 10
+  effects = []
+  presetAffixes = []
+[[ranks]]#ultimate
+  tier = 5
+  numAffixes = 5
+  defaultColor = "#CC33FF"
+  weight = 100
+  growthFactor = 16
+  effects = []
+  presetAffixes = []

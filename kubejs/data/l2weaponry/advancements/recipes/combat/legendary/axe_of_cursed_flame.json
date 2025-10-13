@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_soul_flame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "l2complements:soul_flame"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "l2weaponry:legendary/axe_of_cursed_flame"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_soul_flame",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "l2weaponry:legendary/axe_of_cursed_flame"
+    ]
+  },
+  "sends_telemetry_event": false
+}

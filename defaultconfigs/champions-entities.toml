@@ -1,0 +1,34 @@
+
+#List of entity configurations
+[[entities]]
+  entity = "minecraft:creeper"
+  minTier = 0
+  maxTier = 4
+  presetAffixes = []
+  affixList = []#["champions:knocking", "champions:wounding", "champions:paralyzing", "champions:molten"]#mahni paralizing shtoto shte e smeshn oda go ima na creeperi
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "minecraft:ender_dragon"
+  minTier = 3
+  maxTier = 5
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+[[entities]]
+  entity = "minecraft:wither"
+  minTier = 3
+  maxTier = 5
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+
+[[entities]]
+  entity = "minecraft:cat"
+  minTier = 5
+  maxTier = 5
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"

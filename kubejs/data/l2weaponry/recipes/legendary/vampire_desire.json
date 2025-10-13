@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:cursed_droplet"
+  },
+  "base": {
+    "item": "l2weaponry:totemic_gold_claw"
+  },
+  "result": {
+    "item": "l2weaponry:vampire_desire"
+  },
+  "template": {
+    "tag": "l2library:dummy_smithing_template"
+  }
+}

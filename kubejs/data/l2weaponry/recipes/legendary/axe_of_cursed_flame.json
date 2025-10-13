@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "l2complements:soul_flame"
+  },
+  "base": {
+    "item": "l2weaponry:netherite_battle_axe"
+  },
+  "result": {
+    "item": "l2weaponry:axe_of_cursed_flame"
+  },
+  "template": {
+    "tag": "l2library:dummy_smithing_template"
+  }
+}

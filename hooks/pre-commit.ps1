@@ -3,7 +3,8 @@
 
 # List of blocked patterns (regex-like)
 $blockedPatterns = @(
-    "minecraftinstance.json"
+    "minecraftinstance.json",
+    "kubejs/jsconfig.json"
 )
 
 # Get staged files
